@@ -28,6 +28,11 @@ namespace bellofdk_Assignment07
             Console.WriteLine(ValidatePassword("z"));
             Console.WriteLine(ValidatePassword("ABCDEFGH98!"));
         }
+        /// <summary>
+        /// Validates each requirement of the password outlined in the change request
+        /// </summary>
+        /// <param name="password">String being validated as a password</param>
+        /// <returns></returns>
         static bool ValidatePassword(string password)
         {
             // if the Password Length is not between 8 & 13 method will return false
