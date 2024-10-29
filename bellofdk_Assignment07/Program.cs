@@ -69,7 +69,7 @@ namespace bellofdk_Assignment07
             {
                 //if the input contains any of the characters from "specialChar" it returns true
                 if (input.Contains(item)) 
-                {;
+                {
                     return true; 
                 }
             }
@@ -77,5 +77,5 @@ namespace bellofdk_Assignment07
             return false;
         }
     }
-    }
+}
 
